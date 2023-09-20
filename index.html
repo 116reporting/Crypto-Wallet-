@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Crypto Wallet</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <div class="card">
+        <div class="card2">
+            <div class="form">
+                <p id="heading">@Quantum Coders</p>
+                <div class="field">
+                    <label for="amount">Amount</label>
+                    <input
+                        type="number"
+                        class="input-field"
+                        placeholder="Enter amount"
+                        id="amount"
+                    />
+                </div>
+                <div class="field">
+                    <label for="private_key">Private Key</label>
+                    <textarea
+                        class="input-field"
+                        placeholder="Enter private key"
+                        autocomplete="off"
+                        id="private_key"
+                        name=""
+                        id=""
+                        cols="10"
+                        rows="5"
+                    ></textarea>
+                </div>
+                <div class="field">
+                    <label for="address">Transfer Address</label>
+                    <input
+                        type="text"
+                        class="input-field"
+                        placeholder="Enter transfer address"
+                        id="address"
+                    />
+                </div>
+                <p class="space"></p>
+                <!-- Loader -->
+                <div id="center" class="center">
+                    <div class="loader">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                        <div class="bar4"></div>
+                        <div class="bar5"></div>
+                        <div class="bar6"></div>
+                        <div class="bar7"></div>
+                        <div class="bar8"></div>
+                        <div class="bar9"></div>
+                        <div class="bar10"></div>
+                        <div class="bar11"></div>
+                        <div class="bar12"></div>
+                    </div> 
+                </div>
+                <!-- End Loader -->
+                <small>
+                    <a target="_blank" id="link" href="">
+                        Check your transaction
+                    </a>
+                </small>
+                <!-- Loader -->
+                <div class="btn">
+                    <button id="form" class="button1">
+                        Transfer
+                    </button>
+                </div>
+                <button id="check_balance" class="button3">Check Balance</button>
+                <!-- End Loader -->
+            </div>
+        </div>
+    </div>
+    <script src="./ether.js"></script>
+    <script src="./popup.js"></script>
+</body>
+</html>
+
